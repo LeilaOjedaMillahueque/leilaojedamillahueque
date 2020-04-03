@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {    
+    background: #f5f7f9;
+    color: #f5f7f9;
+    font-family: "source sans pro";
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-family: "open sans";
+    font-size: 1em;
+    line-height: 1.3em;
+    letter-spacing: 0.1em;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    color: #181A26;
+} 
+
+h5 {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+} 
+
+h6 {
+    font-family: "open sans";
+    font-size: 0.9em;
+}
+
+p {
+    font-family: "open sans";
+    font-size: 0.9em;
+    color: #181A26;
+}
+
+a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #f5f7f9; 
+}
+
+.navbar {
+    background-color: #181a26;
+}
+
+.nav-link {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: #BFA8B9;
+    background-size: 100% 2px;
+}
+
+.jumbotron {
+    background-color: #181a26;
+}
+
+mark {
+    background-color: #E4DEE5;
+    color: #181a26;
+}
+
+dt {
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color: #181a26;
+}
+
+dd {
+    font-family: "open sans";
+    font-size: 0.9em;
+    line-height: 2em;
+    color: #534559;
+}
+
+li {
+    font-family: "open sans";
+    font-size: 0.9em;
+    color: #181A26;
+}
+
+.ubicacion{
+    height: 1.3em;
+}
+
+.footer {
+    background-color: #181A26;
+}
+
+.backgroundproject {
+    background-color: #555A6E;
+    color: #F5F7F9 !important;
+}
+
+.colorproject {
+    color: #181A26;
+}
